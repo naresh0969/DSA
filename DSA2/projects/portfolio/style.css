@@ -1,0 +1,105 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+.navigation{
+
+    padding-left:10%;
+
+}
+.navigation li,.navigation a{
+    font-size: 110%;
+    
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0%;
+    display:inline-block;
+    
+    vertical-align: middle;
+    width:125px;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight:500;
+}
+.profile{
+    text-align: center;
+}
+.profile .image{
+    
+    border-radius: 50%;
+    border-color: aqua;
+    border-style:inset;
+}
+.profile p{
+    font-size: 150%;
+}
+
+.intro-text p{
+    margin: 0%;
+    font-size: 110%;
+    text-align: center;
+    line-height: 200%;
+}
+
+/*contact*/
+.chat{
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+.media{
+    padding-left: 30%;
+}
+.media .insta,.media .linkedin, .media .github{
+    display: inline;
+    vertical-align: middle;
+}
+.media .linkedin{
+    padding-right: 2%;
+}
+
+.link .linkedin-link a,
+.link .github-link a,
+.link .insta-link a {
+    color: rgb(0, 102, 255);
+}
+
+.link{
+    padding-left: 30%;
+    text-decoration: underline;
+}
+
+
+.link .linkedin-link , .link .github-link,.link .insta-link{
+    display: inline;
+    padding-top: 0%;
+    padding-right: 18%;
+}
+
+
+/*Skills*/
+.head{
+    text-decoration: underline;
+    padding-left: 20%;
+
+}
+.container{
+    padding: 0% 30%;
+    font-size: large;
+    line-height: 200%;
+}
+/*Projects*/
+.project{
+    text-decoration: underline;
+    padding-left: 20%;
+}
+footer p{
+    padding-top: 10%;
+}
+

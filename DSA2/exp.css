@@ -1,0 +1,77 @@
+/* .button a{
+    text-decoration: none;
+    background-color: blue;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    height: 5%;
+    width: 10%;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+.button:hover, .button a:hover{
+    display: inline;
+    background-color: white;
+    color: blue;
+} */
+/* .button,.button a{
+    position: inherit;
+    background-color: black;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    height: 5%;
+    width: 10%;
+}
+
+.button a {
+    text-decoration: none;
+    background-color: black;
+    
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    
+    border-radius: 5px;
+
+}
+
+
+
+.button:hover,.button a:hover {
+    color:blue;
+    background-color: white;
+    
+} */
+
+
+
+
+.button {
+    position: relative; /* Set to relative, or use other positioning as needed */
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 10px; /* Adjust padding as needed */
+    text-decoration: none;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    color: black;
+    background-color: white;
+}
+.button:hover a{
+    color: black;
+}
+
+
+
